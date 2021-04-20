@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LI4S7/vKTgeE/u9MAHyc2uz5JmZFlwBtIPPXMhTovqy64znOP/55Y37+1/LYp1GkIxn/FsPMhzVN916I8E6PGQ==",
+  "success": true,
+  "projectFilePath": "E:\\Curso UNIVERSIDADE Washington\\SECOND SEMESTER\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Glauber Marques\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0\\microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "C:\\Users\\Glauber Marques\\.nuget\\packages\\microsoft.sourcelink.common\\1.0.0\\microsoft.sourcelink.common.1.0.0.nupkg.sha512",
+    "C:\\Users\\Glauber Marques\\.nuget\\packages\\microsoft.sourcelink.github\\1.0.0\\microsoft.sourcelink.github.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
