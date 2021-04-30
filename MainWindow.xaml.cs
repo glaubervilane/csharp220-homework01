@@ -20,10 +20,14 @@ namespace HelloWorld
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Models.User user = new Models.User();
         public MainWindow()
         {
             InitializeComponent();
             uxSubmit.IsEnabled = false;
+            uxName.DataContext = user;
+            uxPassword.DataContext = user;
+            uxNameError.DataContext = user;
 
         }
 
