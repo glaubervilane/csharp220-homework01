@@ -27,19 +27,7 @@ namespace HelloWorld
 
         }
 
-        private void uxName_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            if (uxName.Text == string.Empty || uxPassword.Text == string.Empty)
-            {
-                uxSubmit.IsEnabled = false;
-            }
-            else
-            {
-                uxSubmit.IsEnabled = true;
-            }
-        }
-
-        private void uxPassword_TextChanged(object sender, TextChangedEventArgs e)
+        private void ux_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (uxName.Text == string.Empty || uxPassword.Text == string.Empty)
             {

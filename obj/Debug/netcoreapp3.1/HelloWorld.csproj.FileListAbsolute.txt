@@ -17,3 +17,4 @@ E:\Curso UNIVERSIDADE Washington\SECOND SEMESTER\HelloWorld\obj\Debug\netcoreapp
 E:\Curso UNIVERSIDADE Washington\SECOND SEMESTER\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
 E:\Curso UNIVERSIDADE Washington\SECOND SEMESTER\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb
 E:\Curso UNIVERSIDADE Washington\SECOND SEMESTER\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.genruntimeconfig.cache
+E:\Curso UNIVERSIDADE Washington\SECOND SEMESTER\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.sourcelink.json
