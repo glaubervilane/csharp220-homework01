@@ -24,10 +24,12 @@ namespace HelloWorld
         public MainWindow()
         {
             InitializeComponent();
-            uxSubmit.IsEnabled = false;
-            uxName.DataContext = user;
-            uxPassword.DataContext = user;
-            uxNameError.DataContext = user;
+            //uxSubmit.IsEnabled = false;
+            //uxName.DataContext = user;
+            //uxPassword.DataContext = user;
+            //uxNameError.DataContext = user;
+
+            uxContainer.DataContext = user;
 
         }
 

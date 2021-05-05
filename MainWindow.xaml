@@ -6,13 +6,14 @@
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
+    <StackPanel x:Name="uxContainer">
 
         <TextBlock>Enter Name:</TextBlock>
         <TextBox x:Name="uxName" TextChanged="ux_TextChanged" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"></TextBox>
         <Label x:Name="uxNameError" Content="{Binding NameError, UpdateSourceTrigger=PropertyChanged}"></Label>
         <TextBlock>Enter Password:</TextBlock>
-        <TextBox x:Name="uxPassword" TextChanged="ux_TextChanged"></TextBox>
+        <TextBox x:Name="uxPassword" TextChanged="ux_TextChanged" Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"></TextBox>
+        <Label x:Name="uxPasswordError" Content="{Binding PasswordError, UpdateSourceTrigger=PropertyChanged}"></Label>
         <Button x:Name="uxSubmit" Click="uxSubmit_Click">Submit</Button>
 
     </StackPanel>

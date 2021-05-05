@@ -11,6 +11,7 @@ namespace HelloWorld.Models
         private string nameError;
 
         private string password = string.Empty;
+        private string passwordError;
 
         public string NameError
         {
@@ -24,6 +25,22 @@ namespace HelloWorld.Models
                 {
                     nameError = value;
                     OnPropertyChanged("NameError");
+                }
+            }
+        }
+        // Exercise 1 
+        public string PasswordError
+        {
+            get
+            {
+                return passwordError;
+            }
+            set
+            {
+                if (passwordError != value)
+                {
+                    passwordError = value;
+                    OnPropertyChanged("PasswordError");
                 }
             }
         }
@@ -88,14 +105,19 @@ namespace HelloWorld.Models
                             {
                                 NameError = "Name cannot be longer than 12 characters.";
                             }
-                            /*if(string.IsNullOrEmpty(Password))
+                            return NameError;
+                        }
+
+                    case "Password":
+                        {
+                            if (string.IsNullOrEmpty(Password))
                             {
-                                NameError = "Password cannot be empty.";
+                                PasswordError = "Password cannot be empty.";
                             }
                             if (Password.Length > 12)
                             {
-                                NameError = "Password cannot be longer than 12 characters.";
-                            }*/
+                                PasswordError = "Password cannot be longer than 12 characters.";
+                            }
                             break;
                         }
                 }
